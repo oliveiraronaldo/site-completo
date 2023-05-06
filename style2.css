@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Tangerine:wght@400;700&display=swap');
+
+body{
+    background-color: #1A1A18;
+    margin: 0;
+}
+
+#site{
+    background-color: #1A1A18;
+    background-size: cover;
+}
+
+header{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    text-align: center;
+    background-color: #1A1A18;
+    border-bottom: 2px solid #ffc144;
+}
+
+header a{
+    margin: 0.5em;
+    height: 1.5em;
+    text-decoration: none;
+    font-family: 'Tangerine', cursive;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #ffc144;
+}
+
+header a:hover{
+    opacity: 60%;
+}
+
+main{
+    font-family: 'IM Fell English SC', serif;
+}
+
+#introducao{
+    font-size: 1.5em;
+    padding: 2em 10vw 0 10vw;
+    color: rgb(255, 255, 255);
+}
+
+#introducao h1{
+    color: #ffc144;
+    font-size: 3em;
+
+}
+
+#introducao img{
+    width: 10em;
+}
+
+#titulo_contato{
+    color: #ffc144;
+    padding-left: 10vw;
+    padding-top: 1em;
+    font-size: 3em;
+}
+
+#contato{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    gap: 1em;
+    width: 40vw;
+    font-size: 1.5em;
+    padding: 2em 10vw 0 10vw;
+    color: rgb(255, 255, 255);
+}
+
+#contato h2{
+    color: white;
+    font-size: 1.5em;
+}
+
+#contato button{
+    width: 8em;
+}
+
+#message{
+    height: 10em;
+}
+
+
+
+.mapa{
+    text-align: center;
+    color: #ffc144;
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+#mapa_imagem{
+    width: 75vw;
+}
+
+#trailer_serie{
+    text-align: center;
+    color: #ffc144;
+    font-size: 2em;
+}
+
+#cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    text-align: center;
+}
+
+#cards img{
+    width: 25vw;
+    height: 33vw;
+    object-fit: cover;
+    border: 3px solid #4E4335;
+    border-radius: 10%;
+}
+
+#cards h2{
+    font-size: 2em;
+    color: #ffc144;
+}
+
+#cards a{
+    text-decoration: none;
+    color: #ffc144;
+}
+
+#cards a:hover{
+    opacity: 70%;
+}
+
+#cards_contato{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    width: fit-content;
+    margin: 10em auto 0 auto;
+    text-align: center;
+}
+
+#cards_contato img{
+    width: 5em;
+}
+
+#bottom{
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 10em;
+}
+
+#bottom h2{
+    font-family: 'Tangerine', cursive;
+    font-size: 3em;
+    color: #ffc144;
+}
+
+#bottom img{
+    margin: auto;
+}
+
+#ring{
+    width: 3em;
+}
+
+#inscrip{
+    width: 14em;
+}

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Tangerine:wght@400;700&display=swap');
+
+body{
+    background-color: #a7a7a7;
+    margin: 0;
+}
+
+#site{
+    /* background-image: url(./assets/home_bg4.jpg); */
+    background-size: cover;
+    margin: 0;
+    width: 100vw;
+    /* height:  */
+}
+
+header{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    text-align: center;
+    background-color: #1A1A18;
+    border-bottom: 2px solid #ffc144;
+}
+
+header a{
+    margin: 0.5em;
+    height: 1.5em;
+    text-decoration: none;
+    font-family: 'Tangerine', cursive;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #ffc144;
+}
+
+header a:hover{
+    opacity: 60%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 15vw 85vw;
+}
+
+#sidebar{
+    background-color: #1A1A18;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 1.2em;
+    /* display: grid;
+    grid-template-rows: 1em 1em 1em 1em; */
+    padding-left: 1em;
+    padding-top: 6em;
+    border-right: 2px solid #ffc144;
+    color: white;
+}
+
+#sidebar a{
+    display: block;
+    text-decoration: none;
+    margin-top: 2em;
+    color: white;
+
+}
+
+#tituloside{
+    margin-bottom: 4em;
+}
+
+#container{
+    background-image: url(./assets/home_bg4.jpg);
+    background-size: cover;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 1.5em;
+    padding: 2em 5vw 0 5vw;
+    color: rgb(255, 255, 255);
+}
+
+#container div{
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+#container h1{
+    color: #ffc144;
+    font-size: 3em;
+    
+
+}
+#container img{
+    width: 10em;
+    margin: auto;
+}
+
+#video{
+    display: block;
+    margin: 3em auto 3em auto;
+}
+
+#galeria{
+    background-image: url(./assets/home_bg4.jpg);
+    background-size: cover; 
+}
+
+#galeria h1{
+    font-family: 'IM Fell English SC', serif;
+    font-size: 3em;
+    color: #ffc144;
+    text-align: center;
+}
+
+#imagens{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1em;    
+    /* margin: auto; */
+}
+
+#imagens img{
+    width: 26vw;
+    height: 20em;
+    object-fit: cover;
+    margin: auto;
+    border: 3px solid #1A1A18;
+    border-radius: 5%;
+}
